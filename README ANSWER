@@ -1,0 +1,23 @@
+## 🧪 Testing Strategy
+
+We implemented a multi-layered testing strategy:
+
+### ✅ Unit Tests
+- React components tested using **React Testing Library**
+- Server utilities and middleware tested using **Jest**
+
+### ✅ Integration Tests
+- API routes tested using **Supertest**
+- Utilized **MongoMemoryServer** for isolated DB testing
+
+### ✅ End-to-End Tests
+- Used **Cypress** to simulate real user flows
+- Tested login, post creation, and navigation
+
+### ✅ Coverage
+Achieved 70%+ unit test coverage using Jest.
+
+### ✅ Debugging
+- Used browser dev tools for React bugs
+- Inserted `console.log` statements on backend
+- Added global Express error handler
